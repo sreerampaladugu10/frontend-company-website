@@ -1,0 +1,179 @@
+.navbar a { 
+  color: black;
+  font-weight: 650; 
+}
+.carousel-item {
+background-color: azure;
+
+}
+.carousel-caption {
+
+  color: black;
+  top:40%;
+
+}
+.btn{
+  margin-top: 1%;
+ 
+}
+.cont {
+  margin-top: 10px;
+  
+}
+.about{
+ padding: 3%;
+
+}
+/*
+.company{
+  padding:3%;
+}
+*/
+.company{
+  box-sizing: 50%;
+  
+}
+.pt{
+  padding-top: 8%;
+}
+.pb{
+  padding-bottom: 11%;
+}
+
+h1, .h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+@media (min-width: 1200px) {
+  h1, .h1 {
+    font-size: 2.5rem;
+  }
+}
+
+h2, .h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  h2, .h2 {
+    font-size: 2rem;
+  }
+}
+
+h3, .h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+  h3, .h3 {
+    font-size: 1.75rem;
+  }
+}
+
+
+.card{
+  padding: 0%;
+  margin: 5%;
+  border: 0;
+  border-color: azure;
+}
+
+
+
+
+/*footer*/
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+footer{
+  background: black;
+  color: white;
+  padding: 60px 0;
+}
+.container{
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+li{
+  list-style: none;
+  line-height: 2;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+.footer-content{
+  margin-left: 2cm;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.items{
+  flex-basis: 20%;
+}
+.items .logo{
+  text-transform: capitalize;
+  font-size: 1.5em;
+  color: white;
+}
+.items p{
+  margin: 1.2em 0;
+}
+.social{
+  display: flex;
+}
+.social a{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border-radius: 5px;
+  margin:10px 5px;
+  text-align: center;
+}
+.social a i{
+  font-size: 1.4em;
+  line-height: 30px;
+}
+.items h3{
+  position: relative;
+  font-size: 1.3em;
+  margin-bottom: 1rem;
+  color: aliceblue;
+}
+
+
+hr{
+  opacity: .3;
+}
+
+footer .end{
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+@media (max-width:640px){
+  .items{
+  flex-basis: 80%;
+  margin: auto;
+}
+
+}
+.article{
+padding: 5%;
+}
+
+body { 
+  padding-top: 110px; 
+}
+.a{
+  padding: 1%;
+}
+
+
+
